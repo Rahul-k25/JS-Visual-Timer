@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Stopwatch</title>
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+
+    <div class="clock-dial">
+        <div class="clock-button">
+            <div class="clock-button-join"></div>
+        </div>
+        <div class="point"></div>
+        <div class="hour hour-1">1</div>
+        <div class="hour hour-2">2</div>
+        <div class="hour hour-3">3</div>
+        <div class="hour hour-4">4</div>
+        <div class="hour hour-5">5</div>
+        <div class="hour hour-6">6</div>
+        <div class="hour hour-7">7</div>
+        <div class="hour hour-8">8</div>
+        <div class="hour hour-9">9</div>
+        <div class="hour hour-10">10</div>
+        <div class="hour hour-11">11</div>
+        <div class="hour hour-12">12</div>
+
+        <div class="minute-wrapper" id="minute-hand">
+            <div class="minute-hand">
+                <div class="hand"></div>
+                <div class="arrow">V</div>
+            </div>
+        </div>
+        <div class="second-wrapper" id="second-hand">
+            <div class="second-hand">
+                <div class="hand"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="timer">
+        <div class="dial dial--bigger"><span id="min">00</span>:<span id="sec">00</span>:<span id="milli">00</span></div>
+
+    </div>
+    <div class="timer__btn">
+        <button class="button" id="start">Start</button>
+        <button class="button" id="clear">Clear</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
